@@ -6,13 +6,13 @@ export default component$(() => {
       <h1>custom page</h1>
       <ul>
         <li>
-          <a href="/custom/9asast"> First Component</a>
+          <a href="/about/9asast"> First Component</a>
         </li>
         <li>
-          <a href="/custom/1111"> About </a>
+          <a href="/about/1111"> About </a>
         </li>
         <li>
-          <a href="/custom/food"> Food </a>
+          <a href="/about/food"> Food </a>
         </li>
       </ul>
     </div>

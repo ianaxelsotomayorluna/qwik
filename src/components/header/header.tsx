@@ -9,7 +9,7 @@ export default component$(() => {
   return (
     <header>
       <a href="/">
-        <img src="public\forge-sm-web.png" alt="forge" width={120} />
+        <img src="/forge-sm-web.png" alt="forge" width={120} />
       </a>
       <ul>
         <li>

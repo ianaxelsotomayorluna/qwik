@@ -4,7 +4,7 @@ import { Mycontext } from 'src/pages/Food/Food';
 
 export const ChildEx =  component$(() => {
     // -----------------------CONSTS, HOOKS, STATES
-    const state = useContext(Mycontext);
+    const state: any = useContext(Mycontext);
     return(
     <div>
       --------------Hi im a Child-------------- 

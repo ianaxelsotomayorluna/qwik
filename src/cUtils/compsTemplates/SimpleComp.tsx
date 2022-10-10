@@ -1,5 +1,5 @@
 // ---Dependencies
-import { ReactElement } from 'react';
+import { component$ } from "@builder.io/qwik";
 // ---UI Dependencies
 // ---Custom Hooks
 // ---Redux
@@ -15,10 +15,10 @@ interface Props {}
  * SimpleComp Component: Do something
  * @returns {ReactElement}
  */
-export function SimpleComp(props: Props): ReactElement {
+export const SimpleComp = component$(() => {
   // -----------------------CONSTS, HOOKS, STATES
   // -----------------------MAIN METHODS
   // -----------------------AUX METHODS
   // -----------------------RENDER
   return <p>SimpleComp</p>;
-}
+});

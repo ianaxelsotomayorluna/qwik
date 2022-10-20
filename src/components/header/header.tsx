@@ -7,27 +7,32 @@ export default component$(() => {
   // -----------------------CONSTS, HOOKS, STATES
   useStylesScoped$(styles);
   return (
-    <header>
-      <a href="/">
-        <img src="/forge-sm-web.png" alt="forge" width={120} />
-      </a>
-      <ul>
-        <li>
-          <a href="/firstComponent"> First Component</a>
-        </li>
-        <li>
-          <a href="/about"> About </a>
-        </li>
-        <li>
-          <a href="/food"> Food </a>
-        </li>
-        <li>
-          <a href="/watchTutor"> Watchtutor </a>
-        </li>
-        <li>
-          <a href="/dummyRoot"> Dummy Root </a>
-        </li>
-      </ul>
+    <header className="navbar">
+      <div class="container">
+        <nav>
+        <a className="imagen" href="/">
+          <img src="/forge-sm-web.png" alt="forge" width={100} />
+        </a>
+          <button className="first">
+            <a href="/firstComponent"> First Component</a>
+          </button>
+          <button className="about">
+            <a href="/about"> About </a>
+          </button>
+          <button className="food">
+            <a href="/food"> Food </a>
+          </button>
+          <button className="watch">
+            <a href="/watchTutor"> Watchtutor </a>
+          </button>
+          <button className="dummy">
+            <a href="/dummyRoot"> Dummy Root </a>
+          </button>
+          <button className="practica">
+            <a href="/practicaCss"> Practica Css Grid </a>
+          </button>
+        </nav>
+      </div>
     </header>
   );
 });

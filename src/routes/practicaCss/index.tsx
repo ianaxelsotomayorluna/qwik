@@ -1,11 +1,12 @@
+
 // ---Dependencies
 import { component$ } from '@builder.io/qwik';
-import { About } from 'src/pages/About/About';
+import { PracticaCss } from '../../pages/PracticaCss/PracticaCss'
 // ---Components
 
 /**
- * Renderea la página "About"
+ * Renderea la página "Food"
  */
 export default component$(() => {
-  return <About />
+  return <PracticaCss />
 });

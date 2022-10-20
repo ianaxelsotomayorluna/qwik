@@ -3,8 +3,9 @@ import {component$,
   useStore,
   useContextProvider,
   createContext } from "@builder.io/qwik";
+import { ChildEx } from './ChildEx/ChildEx';
 // ---Images
-import initState from 'public/initialState.jpg'
+import initState from 'public/initialState.jpg';
 // ---Custom Hooks
 export const Mycontext = createContext("whatever");
 
@@ -20,15 +21,16 @@ export const Food = component$(() => {
   });
   useContextProvider(Mycontext,initialState)
   return (
-    <div>
-      Inicializamos el estado en el componente padre y se lo mandamos al componente hijo 
-      <img src={initState} alt="" />
+    <div class="Food">
+      Inicializamos el estado en el componente padre y se lo mandamos al componente hijo
+      <hr /> 
+      <img src={initState} alt="No existe" />
       <br/>
       my state is: {initialState.name}
       <br/>
       <input onInput$={(e)=> initialState.name = (e?.target as HTMLInputElement).value}/>
       <br/>
-      {/* <Child /> */}
+      <ChildEx />
   </div>)
 });
 

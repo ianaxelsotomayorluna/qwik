@@ -1,3 +1,4 @@
+
 // ---Dependencies
 import { component$ } from '@builder.io/qwik';
 import { Food } from 'src/pages/Food/Food';
@@ -9,4 +10,3 @@ import { Food } from 'src/pages/Food/Food';
 export default component$(() => {
   return <Food />
 });
-

@@ -7,8 +7,8 @@ export const ChildEx =  component$(() => {
     const state: any = useContext(Mycontext);
     return(
     <div>
-      --------------Hi im a Child-------------- 
-      <br />
+      --------------Hi im a Child--------------
+      <hr /> 
       Le mandamos las propiedasdes del State al hijo por medio de "useContext"
       <p>Name state:{state.name} </p>
       <p>Age state:{state.age} </p>
